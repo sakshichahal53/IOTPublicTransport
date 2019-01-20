@@ -16,7 +16,8 @@ of the Android Application.
 </br>
 
 <p float="left">
-  <img src="/img1.png" width="100" />
-  <img src="/img2.png" width="100" /> 
-  <img src="/img3.png" width="100" />
+  <img src="https://github.com/sakshichahal53/IOTPublicTransport/blob/master/gps%20app%20scs/Screenshot_2017-09-18-00-14-21.png" width="400" height="200" />
+  <img src="https://github.com/sakshichahal53/IOTPublicTransport/blob/master/gps%20app%20scs/Screenshot_2017-09-18-00-14-32.png" width="400" height="200" />
+  <img src="https://github.com/sakshichahal53/IOTPublicTransport/blob/master/gps%20app%20scs/Screenshot_2017-09-18-00-14-56.png" width="400" height="200" />
+   <img src="https://github.com/sakshichahal53/IOTPublicTransport/blob/master/gps%20app%20scs/Screenshot_2017-09-18-00-14-43.png" width="400" height="200" />
 </p>
