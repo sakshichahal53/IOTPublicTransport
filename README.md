@@ -5,7 +5,9 @@ Apart from basic monitoring of the public traffic systems, using Hardware such a
 of the Android Application.
 </br>
 </br>
-<img src="https://github.com/sakshichahal53/IOTPublicTransport/blob/master/Untitled%20Diagram(1).jpg" height="600" width="800" align="middle">
+<div style="display: flex; justify-content: center;">
+  <img src="https://github.com/sakshichahal53/IOTPublicTransport/blob/master/Untitled%20Diagram(1).jpg" height="600" width="800" />
+</div>
 </br>
 
 **1. QR Scanner**: The generated QR scanner produces a gps_id of the driver which on a request produces the information of the driver from the DJango servers. </br>
