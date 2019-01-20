@@ -4,7 +4,8 @@
 Apart from basic monitoring of the public traffic systems, using Hardware such as GSM, GPS and Arduino, there are four major features
 of the Android Application.
 </br>
-<img src="https://github.com/sakshichahal53/IOTPublicTransport/blob/master/Untitled%20Diagram.jpg" height="600" width="1000">
+</br>
+<img src="https://github.com/sakshichahal53/IOTPublicTransport/blob/master/Untitled%20Diagram.jpg" height="400" width="800">
 </br>
 
 **1. QR Scanner**: The generated QR scanner produces a gps_id of the driver which on a request produces the information of the driver from the DJango servers. </br>
