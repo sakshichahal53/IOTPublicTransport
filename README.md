@@ -21,3 +21,10 @@ of the Android Application.
   <img src="https://github.com/sakshichahal53/IOTPublicTransport/blob/master/gps%20app%20scs/Screenshot_2017-09-18-13-13-56.png" width="200" height="400" />
    <img src="https://github.com/sakshichahal53/IOTPublicTransport/blob/master/gps%20app%20scs/Screenshot_2017-09-18-13-48-43.png" width="200" height="400" />
 </p>
+</br>
+<br/>
+<p float="left">
+  <img src="https://github.com/sakshichahal53/IOTPublicTransport/blob/master/gps%20app%20scs/Screenshot_2017-09-18-13-48-52.png" width="200" height="400" />
+  <img src="https://github.com/sakshichahal53/IOTPublicTransport/blob/master/gps%20app%20scs/Screenshot_2017-09-18-13-48-59.png" width="200" height="400" />
+  <img src="https://github.com/sakshichahal53/IOTPublicTransport/blob/master/gps%20app%20scs/Screenshot_2017-09-18-14-10-07.png" width="200" height="400" />
+</p>
