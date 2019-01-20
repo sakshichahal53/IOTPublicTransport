@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are u travelling?"
+        android:id="@+id/text"
+        android:layout_marginBottom="15dp"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YES"
+        android:id="@+id/send_location"
+        android:background="@drawable/button_bkgrnd"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/text"
+        style="@style/SCBSwitch"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NO"
+        android:id="@+id/not_send_location"
+        android:background="@drawable/button_bkgrnd"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/send_location"
+        style="@style/SCBSwitch"/>
+
+</RelativeLayout>

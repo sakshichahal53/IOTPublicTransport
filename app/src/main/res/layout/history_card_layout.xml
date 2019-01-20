@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="20dp">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/car"
+        android:id="@+id/vehicle_image"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day"
+        android:layout_toRightOf="@+id/vehicle_image">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:text="Oct 11"
+            android:textColor="@color/black"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:52 PM"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:id="@+id/time"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/day"
+        android:id="@+id/auto_num"
+        android:layout_toRightOf="@+id/vehicle_image"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auto:"
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:id="@+id/vehicle_type"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KRN 186827515"
+            android:layout_marginLeft="3dp"
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:id="@+id/vehicle_num"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="112,University Road, Govindpuri,Gwalior,Mad..."
+        android:layout_below="@+id/auto_num"
+        android:id="@+id/source"
+        android:layout_toRightOf="@+id/vehicle_image"
+        android:layout_toLeftOf="@+id/driver_image"
+        android:textSize="12dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Char Sahar Ka Naka Road,New Grasim Vihar..."
+        android:layout_below="@+id/source"
+        android:id="@+id/dest"
+        android:layout_toRightOf="@+id/vehicle_image"
+        android:layout_toLeftOf="@+id/driver_image"
+        android:textSize="12dp"
+        android:layout_marginTop="4dp"/>
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/sagar"
+        android:layout_alignParentRight="true"
+        android:id="@+id/driver_image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle"
+        android:layout_below="@+id/auto_num"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/source"
+        android:layout_marginRight="3dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle_red"
+        android:layout_below="@+id/source"
+        android:layout_marginTop="6dp"
+        android:layout_toLeftOf="@+id/dest"
+        android:layout_marginRight="3dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/dest"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"></View>
+
+</RelativeLayout>
